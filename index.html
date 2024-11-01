@@ -121,8 +121,11 @@
 
       @media (max-width: 600px) {
         .main {
+          height: 100%;
+        width: 100%;
           grid-template-columns: 50% 50%;
-          grid-template-rows: 30px 30% 8%;
+          grid-template-rows: 4% 30% 8% 58%;
+          overflow-x: hidden;
         }
         #left-top-left {
           padding: 25px;
@@ -164,7 +167,7 @@
           padding: 10px 20px;
         }
         #left-center h1 {
-          font-size: 8vh;
+          font-size: 15vw;
           line-height: 10px;
         }
         #left-center h1:nth-child(2n) {
@@ -178,7 +181,7 @@
           padding:20px;
         }
         #left-bottom p {
-          font-size: 13px;
+          font-size: 14px;
           font-weight: 500;
           color: #333;
           width: 100%;
